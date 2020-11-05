@@ -7,8 +7,8 @@
        <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
     </div>
     <div class="six columns">
-       <label for="DirectorInput">Publisher</label>
-       <input class="u-full-width" type="text" id="Publisher" value="{{ Publisher }}" readonly/>
+       <label for="DirectorInput">Actors</label>
+       <input class="u-full-width" type="text" id="Actors" value="{{ Actors }}" readonly/>
     </div>
   </div>
 
@@ -21,6 +21,12 @@
          <input class="u-full-width" type="button" id=" title" value="{{ title }}" readonly/>
        </a>
     </div>
-
+    <div class="row">
+      <div class="six columns">
+         <label for=" authorInput">Director</label>
+         <a href="https://pedantic-clarke-82b458.netlify.app/get/?id={{ _id }}">
+           <input class="u-full-width" type="button" id=" director" value="{{ Director }}" readonly/>
+         </a>
+      </div>
   </div>
 </form>
