@@ -1,0 +1,30 @@
+<h4 style="margin-top: 15px">{{ Director }}</h4>
+<h5>Director's details</h5>
+<form>
+  <div class="row">
+    <div class="six columns">
+       <label for="idInput">ID</label>
+       <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
+    </div>
+    <div class="six columns">
+       <label for="DirectorInput">Directors</label>
+       <input class="u-full-width" type="text" id="Director" value="{{ Director }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+       <label for="editionInput">Year</label>
+       <input class="u-full-width" type="text" id="Year" value="{{ Year }}" readonly/>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="six columns">
+       <label for=" authorInput">Movie Name</label>
+       <a href="https://condescending-booth-235fc1.netlify.app/get/?id={{ _id }}">
+         <input class="u-full-width" type="button" id=" title" value="{{ title }}" readonly/>
+       </a>
+    </div>
+
+  </div>
+</form>
